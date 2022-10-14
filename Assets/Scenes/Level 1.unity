@@ -17782,7 +17782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec54b2feb8e2b0d409637831c2fe395b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 4, y: 3}
+  gridSize: {x: 5, y: 5}
 --- !u!1001 &1790261634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20890,6 +20890,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1669659223966484400, guid: 86d02ee9836b05f47b5c9a047b7432f6, type: 3}
+      propertyPath: destinationCoordinates.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669659223966484400, guid: 86d02ee9836b05f47b5c9a047b7432f6, type: 3}
+      propertyPath: destinationCoordinates.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669659223966484400, guid: 86d02ee9836b05f47b5c9a047b7432f6, type: 3}
+      propertyPath: currentSearchNode.coordinates.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669659223966484400, guid: 86d02ee9836b05f47b5c9a047b7432f6, type: 3}
+      propertyPath: currentSearchNode.coordinates.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6893340059576036598, guid: 86d02ee9836b05f47b5c9a047b7432f6, type: 3}
       propertyPath: m_RootOrder
       value: 1
